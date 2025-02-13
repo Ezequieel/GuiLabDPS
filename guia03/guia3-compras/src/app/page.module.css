@@ -1,0 +1,77 @@
+.main {  
+  background-color: #61dafb;  
+  min-height: 100vh;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  font-size: calc(10px + 2vmin);  
+  color: white;  
+}  
+
+.App {  
+  text-align: center;  
+}  
+
+.form_input {  
+  height: 40px;  
+  width: 300px;  
+  font-size: 18px;  
+  border-radius: 5px;  
+  padding: 5px;  
+  margin: 5px;  
+}  
+
+.form_button {  
+  cursor: pointer;  
+  text-align: center;  
+  height: 40px;  
+  width: 150px;  
+  margin: 5px;  
+  border: none;  
+  border-radius: 5px;  
+  padding: 5px;  
+  color: white;  
+  background-color: darkgreen;  
+  transition: 0.3s;  
+}  
+
+.form_button:hover {  
+  background-color: green;  
+}  
+
+.list {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  background-color: white;  
+  color: black;  
+  padding: 10px;  
+  margin: 5px;  
+  border-radius: 5px;  
+  box-shadow: 0px 0px 5px gray;  
+  width: 350px;  
+}  
+
+.btn_delete {  
+  cursor: pointer;  
+  border: none;  
+  background-color: red;  
+  color: white;  
+  height: 30px;  
+  width: 30px;  
+  border-radius: 50%;  
+  text-align: center;  
+  font-size: 16px;  
+  font-weight: bold;  
+}  
+
+.btn_delete:hover {  
+  background-color: darkred;  
+}  
+
+.Titulo3 {  
+  margin: 0;  
+  font-size: 18px;  
+  font-weight: bold;  
+}
