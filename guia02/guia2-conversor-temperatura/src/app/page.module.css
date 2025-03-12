@@ -1,0 +1,43 @@
+.main {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.text {
+  display: block;
+  margin: 10px 0;
+}
+
+.input, .select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  font-size: 1.2em;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
